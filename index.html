@@ -2004,8 +2004,8 @@
       var cdSecs = document.getElementById('cd-secs');
 
       var targetTime = new Date('2026-11-14T19:30:00+05:30').getTime();
-      var fallbackRemainingSec = (8 * 86400) + (23 * 3600) + (1 * 60) + 1;
-
+      
+var fallbackRemainingSec = 3446820;
       function updateCountdown() {
         var now = Date.now();
         var diffSec = Math.floor((targetTime - now) / 1000);
